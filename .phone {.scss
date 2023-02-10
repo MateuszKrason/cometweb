@@ -1,0 +1,114 @@
+<div className={styles.phone}>
+        <div className={styles.imgPhotoDiv}>
+          <img className={styles.imgPhoto} alt="phone" src={`${process.env.PUBLIC_URL}/tel.png`}></img>
+        
+        </div>
+        <div className={styles.phoneInner}>
+          <p className={styles.number}>
+            &nbsp;&nbsp; +48 <strong>690 688 835</strong> &nbsp;&nbsp;
+          </p>
+        </div>
+      </div>
+
+
+
+.phone {
+  background: #a3b10f;
+  // width: 60px;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  top: 140px;
+  z-index: 130;
+  display: flex;
+}
+
+.phone:hover .imgPhotoDiv {
+  // visibility: hidden;
+  // transition-duration: 2s;
+  transition-delay: 0s;
+  transform: translateX(10em);
+  z-index: 120;
+  transition-duration: 0.8s;
+  transition-delay: 0s;
+}
+
+.phoneInner {
+  // visibility: hidden;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  z-index: 126;
+  width: auto;
+  height: 60px;
+  transform: translateY(0);
+  // visibility: hidden;
+  transform: translateX(-10em);
+  transition-duration: 0.8s;
+  transition-delay: 0s;
+}
+
+.phone:hover .phoneInner{
+  // background: red;
+  transition-duration: 0.8s;
+  transition-delay: 0s;
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  text-align: right;
+  z-index: 126;
+  transform: translateY(0);
+  // transform: translateX(3em);
+  // visibility: visible;
+}
+
+.phone:hover .number {
+  font-size: 17px;
+  text-align: justify;
+  line-height: 200%;
+  color: #464849;
+  display: inline-block;
+  // transition-duration: .7s;
+  transition-delay: 0s;
+  z-index: 127;
+  // visibility: visible;
+  transform: translateY(0);
+}
+
+.number {
+  transition-duration: .7s;
+  transition-delay: 0s;
+  // display: table;
+  // visibility: hidden;
+  // transform: translateX(-1em);
+}
+
+.imgPhotoDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 190;
+  width: 60px;
+  // background: #a3b10f;
+}
+
+.imgPhotoHoverDiv {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgPhoto {
+  transform: scale(0.7);
+  z-index: 131;
+}
+
+.imgPhotoHover {
+  transform: scale(0.7);
+  z-index: 131;
+}
