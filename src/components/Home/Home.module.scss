@@ -21,17 +21,17 @@
   z-index: 0;
 }
 
-.svg {
-	width: 100%;
-	height: auto;
-  // max-height: 1000px;
-	position: absolute;
-  top: 0;
-  z-index: 0;
-  min-width: 330px;
+// .svg {
+// 	width: 100%;
+// 	height: auto;
+//   // max-height: 1000px;
+// 	position: absolute;
+//   top: 0;
+//   z-index: 0;
+//   min-width: 330px;
 
-  background: none;
-}
+//   background: none;
+// }
 
 .waveBackground {
   width: 100%;
@@ -68,7 +68,7 @@
   z-index: 1;
 }
 
-.companyDescription {
+.companyDescription { // usunać ?????
   color: #fff;
   z-index: 9;
   transform: translateY(20px);
@@ -88,20 +88,20 @@
 //-------------------------------------- hover phone etc.
 
 .phoneTab {
-  width: 227px;
+  width: 237px;
   height: 60px;
   position: fixed;
   left: 0;
   z-index: 130;
   display: flex;
   justify-content: flex-end;
-  transform: translateX(-167px);
+  transform: translateX(-177px);
 
   top: 160px;
 }
 
 .hoverLinePhone {
-  width: 227px;
+  width: 237px;
   height: 100%;
 }
 
@@ -126,9 +126,9 @@
   line-height: 0;
   text-align: right;
   transform: translateY(0);
-  transform: translateX(167px);
+  transform: translateX(177px);
 
-  background: #464849;
+  background: #130f40;
 }
 
 .phoneTab:hover .number {
@@ -145,7 +145,7 @@
 .number {
   transition-duration: .7s;
   transition-delay: 0s;
-  width: 167px;
+  width: 177px;
   font-weight: 500 !important;
   letter-spacing: 0.09em !important;
 
@@ -206,7 +206,7 @@
   transform: translateY(0);
   transform: translateX(187px);
 
-  background: #130f40;
+  background: #2d2d2e;
 }
 
 .emailTab:hover .email {
@@ -333,7 +333,7 @@
 }
 
 .aboutUsSection {
-  width: 50%;
+  width: 60%;
   min-height: 30vh;
   margin: 0 auto;
   overflow: hidden;
@@ -355,7 +355,7 @@
   padding: 0;
   top: 0;
   color: #252525;
-  text-shadow: 0 0 5px #fff, 0 0 5px #fff;
+  // text-shadow: 0 0 5px #fff, 0 0 5px #fff;
 }
 
 .descAboutUs {
@@ -414,7 +414,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  width: 60%;
+  width: 70%;
   padding: 0;
   // border: 1px solid;
   border-radius: 25px;
@@ -429,7 +429,6 @@
 
 .servicesBack{
 	background-position: content;
-
   // background: bottom fixed;
 }
 

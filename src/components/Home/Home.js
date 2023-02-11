@@ -23,7 +23,7 @@ const Home = () => {
         <img className={styles.wave} alt="wave" src={`${process.env.PUBLIC_URL}/wave.png`}></img>
         <div className={styles.innerDiv}>
           <img className={styles.logo} alt="CometwebLogo" src={`${process.env.PUBLIC_URL}/Cometweb/logocut.png`}></img>
-          <h3 className={styles.companyDescription}>Tworzymy Twoją przyszłość w Internecie</h3>
+          {/* <h3 className={styles.companyDescription}>Tworzymy Twoją przyszłość w Internecie</h3> */}
         </div>
       </div>
 
